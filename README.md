@@ -1,4 +1,4 @@
-# ✈️ Pronóstico Turístico - Puno
+# Pronóstico Turístico - Puno
 
 Aplicación web para predecir las condiciones climáticas en Puno, Perú, diseñada especialmente para planificar viajes turísticos. Utiliza Machine Learning para ofrecer predicciones precisas del estado del clima.
 
@@ -7,16 +7,16 @@ Aplicación web para predecir las condiciones climáticas en Puno, Perú, diseñ
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.6.1-orange.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-## 🌟 Características
+## Características
 
-- 📅 **Selección de fechas intuitiva** estilo aeropuerto
-- 🔮 **Predicciones día por día** del estado del clima
-- 📊 **Estadísticas del viaje** (días buenos, regulares y malos)
-- 📱 **Diseño responsive** adaptable a móviles y tablets
-- ⚡ **Interfaz moderna** con animaciones suaves
-- 🎨 **Código de colores** para fácil interpretación
+- **Selección de fechas intuitiva** estilo aeropuerto
+- **Predicciones día por día** del estado del clima
+- **Estadísticas del viaje** (días buenos, regulares y malos)
+- **Diseño responsive** adaptable a móviles y tablets
+- **Interfaz moderna** con animaciones suaves
+- **Código de colores** para fácil interpretación
 
-## 🎯 Estados del Clima
+## Estados del Clima
 
 | Estado | Icono | Color | Descripción |
 |--------|-------|-------|-------------|
@@ -24,7 +24,7 @@ Aplicación web para predecir las condiciones climáticas en Puno, Perú, diseñ
 | **Regular** | ⛅ | Naranja | Condiciones aceptables |
 | **Malo** | 🌧️ | Rojo | No recomendado para actividades al aire libre |
 
-## 📋 Requisitos Previos
+## Requisitos Previos
 
 - Python 3.12.10 (recomendado)
 - pip (gestor de paquetes de Python)
@@ -32,7 +32,7 @@ Aplicación web para predecir las condiciones climáticas en Puno, Perú, diseñ
   - `modelo_estado_fecha.pkl`
   - `label_encoder_estado.pkl`
 
-## 🚀 Instalación
+## Instalación
 
 ### 1. Clonar o descargar el proyecto
 
@@ -81,7 +81,7 @@ clima_puno_app/
 └── requirements.txt
 ```
 
-## 🎮 Uso
+## Uso
 
 ### Iniciar la aplicación
 
@@ -100,7 +100,7 @@ La aplicación estará disponible en:
 3. Haz clic en **"🔮 Consultar Clima"**
 4. Revisa las **estadísticas** y el **pronóstico detallado**
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 clima_puno_app/
@@ -115,7 +115,7 @@ clima_puno_app/
 └── venv/                       # Entorno virtual (no incluir en git)
 ```
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 ### Backend
 - **Flask 3.0.0**: Framework web
@@ -129,7 +129,7 @@ clima_puno_app/
 - **JavaScript (Vanilla)**: Interactividad
 - **Fetch API**: Comunicación con el backend
 
-## 🔧 Configuración Avanzada
+## Configuración Avanzada
 
 ### Cambiar puerto
 
@@ -156,7 +156,7 @@ Por defecto, la app limita las consultas a 30 días. Para cambiarlo, edita `app.
 if dias_diferencia > 30:  # Cambiar 30 por el límite deseado
 ```
 
-## ⚠️ Solución de Problemas
+## Solución de Problemas
 
 ### Error: "Can't get attribute '_RemainderColsList'"
 
@@ -183,7 +183,7 @@ pip install scikit-learn==1.6.1
 pip install -r requirements.txt
 ```
 
-## 📊 Ejemplo de Predicción
+## Ejemplo de Predicción
 
 ### Request (JSON)
 ```json
@@ -215,17 +215,7 @@ pip install -r requirements.txt
 }
 ```
 
-## 🤝 Contribuir
-
-Las contribuciones son bienvenidas. Para contribuir:
-
-1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/NuevaCaracteristica`)
-3. Commit tus cambios (`git commit -m 'Agregar nueva característica'`)
-4. Push a la rama (`git push origin feature/NuevaCaracteristica`)
-5. Abre un Pull Request
-
-## 📝 Modelo de Machine Learning
+## Modelo de Machine Learning
 
 El modelo utiliza las siguientes características para predecir:
 - `year`: Año
@@ -235,7 +225,7 @@ El modelo utiliza las siguientes características para predecir:
 - `weekofyear`: Semana del año
 - `season`: Estación del año (Verano, Otoño, Invierno, Primavera)
 
-## 🌡️ Estaciones en Puno
+## Estaciones en Puno
 
 - **Verano**: Diciembre, Enero, Febrero
 - **Otoño**: Marzo, Abril, Mayo
@@ -244,17 +234,17 @@ El modelo utiliza las siguientes características para predecir:
 
 
 
-## 👥 Autores
+## Autores
 
 - QUINTO GODOY Bryan Daniel
 - FLORES RAMOS Jesus
 - CUYO ZAMATA Robert 
 
-## 🙏 Agradecimientos
+## Agradecimientos
 
 - Universidad Nacional del Altiplano - Puno
 - Curso de Aprendizaje de Máquina 2025-02
-- Datos climáticos de Puno
+- Datos climáticos de Puno SENAMHI
 
 ## 📞 Contacto
 
