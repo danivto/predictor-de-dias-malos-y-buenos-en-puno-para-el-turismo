@@ -242,13 +242,13 @@ El modelo utiliza las siguientes características para predecir:
 - **Invierno**: Junio, Julio, Agosto
 - **Primavera**: Septiembre, Octubre, Noviembre
 
-## 📄 Licencia
 
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
 
 ## 👥 Autores
 
-- **Tu Nombre** - *Trabajo Inicial* - [Tu GitHub](https://github.com/tu-usuario)
+- QUINTO GODOY Bryan Daniel
+- FLORES RAMOS Jesus
+- CUYO ZAMATA Robert 
 
 ## 🙏 Agradecimientos
 
@@ -258,10 +258,8 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 ## 📞 Contacto
 
-Para preguntas o sugerencias, por favor abre un issue en el repositorio.
+996001030
 
 ---
 
 ⭐ Si este proyecto te fue útil, considera darle una estrella en GitHub!
-
-**Hecho con ❤️ para turistas de Puno**
